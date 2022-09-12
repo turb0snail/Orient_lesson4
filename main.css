@@ -1,0 +1,91 @@
+div {
+  font-family: "Gothic A1", sans-serif;
+}
+
+#header h1 {
+  color: rgb(69, 95, 95);
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.to-do {
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  right: 15%;
+  width: 400px;
+  height: 300px;
+}
+
+.to-do-list {
+  background-color: #6ab15c;
+  position: relative;
+  width: 550px;
+  height: 520px;
+}
+
+.to-do-list p {
+  font-size: larger;
+  opacity: 0.2;
+  font-style: italic;
+}
+
+.btn-1 {
+  padding: 5px;
+  border: none;
+  background-color: #3a93cc;
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  width: 20%;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.btn-2 {
+  padding: 5px;
+  border: none;
+  background-color: #3a93cc;
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  width: 30%;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.btn-3 {
+  padding: 5px;
+  border: none;
+  background-color: rgb(129, 12, 12);
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  width: 25%;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.btn-4 {
+  padding: 5px;
+  border: none;
+  background-color: #6ab15c;
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  width: 25%;
+  cursor: pointer;
+  margin: 8px;
+}
+
+ol li:nth-child(2) {
+  background-color: gray;
+  text-decoration: line-through;
+}
+
+.red {
+  color: palevioletred;
+  background-color: whitesmoke;
+}

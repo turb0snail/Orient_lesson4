@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>JavaScript project</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div>
+    <div id="header">
       <h1>JavaScript project</h1>
       <p>
         design a to-do-list website using HTML, CSS, and javascript. the user
@@ -17,15 +24,19 @@
       </p>
       <p>The code should include three files</p>
       <ul>
-        <li>index.html - a HTML file that includes the page components</li>
         <li>
-          style.css - a CSS file that tells the page what it should look like;
-          where things should be, what size and colour they should <br />
+          <mark class="red">index.html </mark> - a HTML file that includes the
+          page components
+        </li>
+        <li>
+          <mark class="red">style.css</mark> - a CSS file that tells the page
+          what it should look like; where things should be, what size and colour
+          they should <br />
           be, etc
         </li>
         <li>
-          script.js - a JavaScript file that tells the page what to do; you'll
-          be doing most of your coding in this file
+          <mark class="red">script.js</mark> - a JavaScript file that tells the
+          page what to do; you'll be doing most of your coding in this file
         </li>
       </ul>
       <p>the page should include four buttons as shown in the figure</p>
@@ -44,7 +55,31 @@
       <br />
       <p>The task is marked as completed when the user double click on it.</p>
     </div>
+    <br />
 
-    <div></div>
+    <div class="to-do-list">
+      <div class="to-do">
+        <h1>My to-do list</h1>
+        <p>Double-click an item to mark it complete.</p>
+        <form>
+          <div>
+            <input type="text" class="text" />
+            <input type="button" value="Add" class="btn-1" />
+          </div>
+          <div>
+            <ol>
+              <li>My</li>
+              <li>to do</li>
+              <li>list</li>
+            </ol>
+          </div>
+          <div>
+            <input type="button" value="Clear Completed" class="btn-2" />
+            <input type="reset" value="Empty List" class="btn-3" />
+            <input type="button" value="Save List" class="btn-4" />
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
